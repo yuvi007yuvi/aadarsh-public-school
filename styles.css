@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h5 {
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 0px;
+}
