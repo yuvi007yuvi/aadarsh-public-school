@@ -17,8 +17,16 @@ footer {
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .navbar-nav .nav-item + .nav-item {
-    margin-left: 0px;
+    margin-left: 10px;
 }
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjust max-height as needed */
+    object-fit: scale-down;
+}
+

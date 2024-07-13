@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-brand img {
+            max-width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+            margin-right: 15px;
+            /* Adjust spacing between nav items */
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Include the navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">School Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/WhatsApp Image 2024-06-23 at 19.30.21_b7f2a6cf.jpg" width="60" height="60"
+                class="d-inline-block align-top" alt="School Logo">
+            ADARSH SCHOOL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,13 +56,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
+
             </ul>
         </div>
     </nav>
-
     <div class="container mt-5">
         <h1>Contact Us</h1>
         <form>
@@ -65,4 +90,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>

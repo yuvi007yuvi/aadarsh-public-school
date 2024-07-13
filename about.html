@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-brand img {
+            max-width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+            margin-right: 15px;
+            /* Adjust spacing between nav items */
+        }
+
+        .card-custom {
+            margin-bottom: 20px;
+        }
+
+        /* Style for images inside cards */
+        .card .card-img-top {
+            height: 250px;
+            /* Adjust this value to your preference */
+            object-fit: cover;
+        }
+
+        /* Ensures the card body has consistent height */
+        .card-body {
+            min-height: 100px;
+            /* Adjust this value as needed */
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Include the navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">School Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/WhatsApp Image 2024-06-23 at 19.30.21_b7f2a6cf.jpg" width="60" height="60"
+                class="d-inline-block align-top" alt="School Logo">
+            ADARSH SCHOOL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,28 +72,93 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <h1>About Us</h1>
-        <p>Information about the school, its history, mission, and vision.</p>
-        <!-- Additional content sections -->
+
+    <!-- Staff Section -->
+    <div class="card-custom">
+        <h2>Our Staff</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.shutterstock.com/image-photo/english-teacher-near-whiteboard-task-260nw-1921960016.jpg"
+                        class="card-img-top" alt="Staff Member">
+
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">Position: Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/1089058072OnlineCriminalJusticeProfessor.jpg=ws1280x960"
+                        class="card-img-top" alt="Staff Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text">Position: Head of Department</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1578010671/photo/smiling-teacher-standing-at-the-blackboard.jpg?s=612x612&w=0&k=20&c=7B3NsWck5T7QGJCIchbe3hDRSsMUgPRxXX76s1Rkp8A="
+                        class="card-img-top" alt="Staff Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Johnson</h5>
+                        <p class="card-text">Position: Academic Advisor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alumni Section -->
+    <div class="card-custom">
+        <h2>Our Alumni</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alumni1.jpg" class="card-img-top" alt="Alumni">
+                    <div class="card-body">
+                        <h5 class="card-title">Emily Brown</h5>
+                        <p class="card-text">Batch: 2010</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alumni2.jpg" class="card-img-top" alt="Alumni">
+                    <div class="card-body">
+                        <h5 class="card-title">David Clark</h5>
+                        <p class="card-text">Batch: 2005</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alumni3.jpg" class="card-img-top" alt="Alumni">
+                    <div class="card-body">
+                        <h5 class="card-title">Sarah Wilson</h5>
+                        <p class="card-text">Batch: 2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <footer class="bg-light text-center text-lg-start mt-5">
         <div class="text-center p-3">
-            © 2024 School Name. All rights reserved.
+            © 2024 ADARSH SCHOOL. All rights reserved.
         </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
+
 </html>

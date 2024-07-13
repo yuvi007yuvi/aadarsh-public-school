@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-brand img {
+            max-width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+            margin-right: 15px;
+            /* Adjust spacing between nav items */
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Include the navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">School Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/WhatsApp Image 2024-06-23 at 19.30.21_b7f2a6cf.jpg" width="60" height="60"
+                class="d-inline-block align-top" alt="School Logo">
+            ADARSH SCHOOL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,56 +56,62 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
+
             </ul>
         </div>
     </nav>
-
-    <div class="container mt-5">
-        <h1>Our Courses</h1>
-        <p>Explore our range of courses designed to help you achieve your academic and career goals.</p>
-
-        <!-- Courses List -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="images/course1.jpg" class="card-img-top" alt="Course Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Course 1</h5>
-                        <p class="card-text">This is a brief description of Course 1. It covers the basics of the subject and introduces key concepts.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="images/course2.jpg" class="card-img-top" alt="Course Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Course 2</h5>
-                        <p class="card-text">This is a brief description of Course 2. It includes intermediate topics and hands-on projects.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="images/course3.jpg" class="card-img-top" alt="Course Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Course 3</h5>
-                        <p class="card-text">This is a brief description of Course 3. It delves into advanced topics and research methodologies.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://www.acs.ac.in/wp-content/uploads/2019/04/ba-1.jpg" class="card-img-top"
+                    alt="Bachelor of Arts">
+                <div class="card-body">
+                    <h5 class="card-title">Bachelor of Arts (B.A.)</h5>
+                    <p class="card-text">The Bachelor of Arts (B.A.) degree offers a diverse range of subjects,
+                        including humanities, social sciences, and languages. Students can specialize in fields such as
+                        history, political science, sociology, and literature. The program emphasizes critical thinking,
+                        communication skills, and cultural awareness, preparing students for various careers in
+                        education, public service, media, and more.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
-        <!-- Add more courses in similar blocks as needed -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1ba3uBZU9Jo5Wj5rOxWE0BImq7w3a6-JwA&s"
+                    class="card-img-top" alt="Bachelor of Science">
+                <div class="card-body">
+                    <h5 class="card-title">Bachelor of Science (B.Sc.)</h5>
+                    <p class="card-text">The Bachelor of Science (B.Sc.) degree provides a solid foundation in
+                        scientific disciplines such as biology, chemistry, physics, and mathematics. Students gain
+                        hands-on experience through laboratory work, research projects, and field studies. The program
+                        is designed to foster analytical and problem-solving skills, preparing graduates for careers in
+                        research, healthcare, engineering, technology, and more.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://www.techinaut.edu.in/wp-content/uploads/2019/07/TECHINAUT-PGDCA-POST-GRADUATE-DIPLOMA-IN-COMPUTER-APPLICATION-007.jpg"
+                    class="card-img-top" alt="PGDCA">
+                <div class="card-body">
+                    <h5 class="card-title">Post Graduate Diploma in Computer Applications (PGDCA)</h5>
+                    <p class="card-text">The Post Graduate Diploma in Computer Applications (PGDCA) is a specialized
+                        program designed for graduates who wish to enhance their knowledge in computer applications and
+                        information technology. The curriculum covers topics such as programming languages, database
+                        management, software engineering, and web technologies. This diploma prepares students for
+                        technical roles in software development, IT consulting, and system management.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <footer class="bg-light text-center text-lg-start mt-5">
         <div class="text-center p-3">
-            © 2024 School Name. All rights reserved.
+            © 2024 College Name. All rights reserved.
         </div>
     </footer>
 
@@ -86,4 +120,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
